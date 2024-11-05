@@ -1,3 +1,14 @@
+# Name: Group HappyFish (Quynh Doan, Denise Huynh, Sarah Mahan)
+# email: doanqb@mail.uc.edu, huynhd2@mail.uc.edu, mahansa@mail.uc.edu
+# Assignment Number: Assignment 09
+# Due Date: 11/07/2024 
+# Course #/Section: IS 4010-001
+# Semester/Year: Fall Semester 2024
+# Brief Description of the assignment: In this assignment you will work in teams to develop a VS project that accesses our SQL Server instance, extracts some data from the Grocery Store Simulator database, and produces some interesting results
+# Brief Description of what this module does: This Python module connects to a database and executes SQL queries to fetch product information, including the product description, manufacturer, brand, and the number of items sold. It randomly selects a product from the tProduct table, retrieves the corresponding manufacturer and brand details, and calculates the total sales for that product. Finally, the module prints a grammatically correct sentence summarizing the product's details and sales data.
+# Citations: N/A
+# Anything else that's relevant: N/A
+
 # main.py
 
 import random
