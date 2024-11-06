@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
         # Step 7: Print the result as a grammatically correct sentence
         result_sentence = (
-            f"The product '{description}' manufactured by '{manufacturer_name}' "
-            f"under the brand '{brand_name}' has sold {number_of_items_sold} items."
+            f"The product '{description}' was manufactured by '{manufacturer_name}' "
+            f"under the brand '{brand_name}' and has sold {number_of_items_sold} units."
         )
         print(result_sentence)

@@ -20,7 +20,7 @@ def fetch_query_results(query):
     @param query: SQL query to be executed
     @return: List of rows fetched by the query, or None if there was an error
     """
-    conn = connect_to_database()
+    conn = connect_to_database() # conn is a connection object or assigned None 
     if conn is None:
         print("Failed to connect to the database.")
         return None
