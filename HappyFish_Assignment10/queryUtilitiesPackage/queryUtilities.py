@@ -10,6 +10,7 @@
 # Anything else that's relevant: N/A
 
 #queryUtilities.py
+
 from dbUtilitiesPackage.dbUtilities import connect_to_database
 
 def fetch_query_results(query):
